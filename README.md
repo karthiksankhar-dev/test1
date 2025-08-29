@@ -30,8 +30,8 @@ Follow these steps to set up and run the project on your local machine.
 First, clone this repository to your local machine using Git:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-directory>
+git clone https://github.com/karthiksankhar-dev/test1.git
+cd test1
 ```
 
 
@@ -98,10 +98,10 @@ Once the download is complete, leave the Ollama service running in the backgroun
 Finally, you can run the Python script. Make sure your terminal is in the project's root directory and your virtual environment is active.
 
 ```bash
-streamlit run your_script_name.py
+streamlit run code.py
 ```
 
-Replace `your_script_name.py` with the actual name of your Python file.
+Replace `code.py` with the actual name of your Python file.
 
 After running the command, your web browser should open a new tab with the Streamlit application running. You can now ask a computer science question and see the response generated in real-time.
 
